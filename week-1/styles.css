@@ -1,0 +1,41 @@
+body {
+  background-color: #b0c4de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  height: 30vh;
+  width: 60vh;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.text-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+}
+#text {
+  max-height: 180px;
+  max-width: 240px;
+  text-align: center;
+  overflow: hidden;
+}
+#btn {
+  width: 50px;
+}
+#image {
+  width: 8rem;
+  border-radius: 15px;
+  max-height: 100%;
+  object-fit: contain;
+}
