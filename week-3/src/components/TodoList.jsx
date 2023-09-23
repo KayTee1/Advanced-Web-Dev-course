@@ -1,4 +1,4 @@
-import SingleTodoItem from "./SingleTodoItem";
+import "./styles.css";
 
 const TodoList = ({ todos, setTodos }) => {
   const handleDelete = (id) => {
@@ -12,12 +12,14 @@ const TodoList = ({ todos, setTodos }) => {
   return (
     <div>
       {todos.map((todo) => (
-        <SingleTodoItem
-          key={todo.id}
-          id={todo.id}
-          todoContent={todo.text}
-          handleDelete={handleDelete}
-        />
+        <div className="singleTodo" key={todo.id}>
+          <span className="text">
+            {todo.id} - {todo.text}
+          </span>
+          <button className="btn" onClick={() => handleDelete(todo.id)}>
+            Done
+          </button>
+        </div>
       ))}
     </div>
   );
