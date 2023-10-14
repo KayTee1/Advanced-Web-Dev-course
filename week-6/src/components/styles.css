@@ -1,0 +1,21 @@
+.outcomes {
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  height: 3em;
+  width: 30em;
+  align-items: center;
+  border: 2px solid darkgray;
+  position: relative;
+  left:20px;
+}
+
+.text{
+  padding-right: 5px;
+}
+.id{
+  width: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
