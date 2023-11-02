@@ -1,0 +1,21 @@
+.card {
+  border: solid 3px black;
+  border-radius: 5px;
+  margin-bottom: 2.5em;
+  max-width: 50vw;
+}
+.data-title {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.text-input {
+  width: 50vw;
+  height: 8vh;
+  margin-top: 0.2em;
+  border: solid 3px black;
+  border-radius: 5px;
+}
+.postButton {
+  margin: 1em;
+  width: 50vw;
+}
