@@ -1,0 +1,10 @@
+.productImage{
+    max-width: 20%;
+    height: auto;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
